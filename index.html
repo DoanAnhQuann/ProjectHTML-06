@@ -579,23 +579,30 @@
                         has its own private, spacious room and daily individual
                         time in our large play yard.
                     </p>
-                    <div class="btn btn__chocie">
-                        <a href="#!" class="btn-link__choice">Monthly</a>
-                        <div class="btn block__choice">
-                            <a href="#!" class="btn-link1__choice">Yearly</a>
-                        </div>
-                        <img
-                            src="./assets/icon/Vector 13.svg"
-                            alt=""
-                            class="icon1__choice"
+                    <form method="dialog" action="" class="choice__form">
+                        <input
+                            type="checkbox"
+                            name=""
+                            id="check"
+                            class="choice__input"
+                            hidden
                         />
-                        <span class="sale__choice">SAVE 15%</span>
-                        <img
-                            src="./assets/icon/Vector 14.svg"
-                            alt=""
-                            class="icon3__choice"
-                        />
-                    </div>
+                        <label class="choice__btn" for="check">
+                            <span class="choice__date">Monthly</span>
+                            <span class="choice__date">Yearly</span>
+                        </label>
+                    </form>
+                    <img
+                        src="./assets/icon/Vector 13.svg"
+                        alt=""
+                        class="icon1__choice"
+                    />
+                    <span class="sale__choice">SAVE 15%</span>
+                    <img
+                        src="./assets/icon/Vector 14.svg"
+                        alt=""
+                        class="icon3__choice"
+                    />
                 </div>
 
                 <div class="bot__choice">
@@ -960,9 +967,11 @@
                                 <h3 class="footer__head">Contact Info</h3>
                                 <p class="desc__footer">abc@gmail.com</p>
                                 <p class="desc__footer">0 (800)-000-00-00</p>
-                                <p class="desc__footer">New York, NY, Rocawy 7</p>
+                                <p class="desc__footer">
+                                    New York, NY, Rocawy 7
+                                </p>
                             </div>
-    
+
                             <div class="footer__item4">
                                 <h3 class="footer__head">Opening Time</h3>
                                 <p class="desc__footer">
@@ -971,16 +980,14 @@
                                 <p class="desc__footer">
                                     Saturday : 09.00 am – 20.00 pm
                                 </p>
-                                <p class="desc__footer">Sunday: We are Closed</p>
+                                <p class="desc__footer">
+                                    Sunday: We are Closed
+                                </p>
                             </div>
                         </div>
-                        <p class="copy__footer">
-                            Copyright & Design By Uihut
-                        </p>
+                        <p class="copy__footer">Copyright & Design By Uihut</p>
                     </div>
-                    
                 </div>
-                
             </div>
         </section>
     </body>
